@@ -37,7 +37,7 @@ section,
   width: 100%;
   z-index: 9999; }
   .loader .loader_inner {
-    background-image: url("../img/preloader2.gif");
+    background-image: url("../img/preloader.gif");
     background-repeat: no-repeat;
     background-position: center center;
     background-color: #161616;

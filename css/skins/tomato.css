@@ -22,3 +22,8 @@ svg path {
 
 .toggle_mnu {
   background-color: #222; }
+
+.top_mnu a:hover {
+  color: #FF6347; }
+.top_mnu a {
+  letter-spacing: 4px; }
