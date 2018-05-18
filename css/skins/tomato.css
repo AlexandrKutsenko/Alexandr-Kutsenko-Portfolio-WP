@@ -16,3 +16,9 @@ p {
 
 .color_border {
   border-color: #FF6347; }
+
+svg path {
+  fill: #222; }
+
+.toggle_mnu {
+  background-color: #222; }
