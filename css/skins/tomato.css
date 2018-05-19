@@ -1,11 +1,12 @@
 body {
-  color: #222;
-  letter-spacing: 1px; }
+  color: #222; }
 
 a {
   color: #FF6347; }
 
-p {
+p,
+body .main_footer,
+.s_about li {
   color: #888; }
 
 .color_element {
@@ -17,13 +18,22 @@ p {
 .color_border {
   border-color: #FF6347; }
 
-svg path {
-  fill: #222; }
+.bg_light {
+  background-color: #FAFAFA; }
 
-.toggle_mnu {
-  background-color: #222; }
+.bg_dark {
+  background-color: #222;
+  color: #fff; }
+  .bg_dark .s_descr::after {
+    background-color: #fff; }
+  .bg_dark a {
+    color: #fff; }
 
 .top_mnu a:hover {
   color: #FF6347; }
 .top_mnu a {
   letter-spacing: 4px; }
+
+.top_text p {
+  color: #FAFAFA;
+  letter-spacing: 5px; }

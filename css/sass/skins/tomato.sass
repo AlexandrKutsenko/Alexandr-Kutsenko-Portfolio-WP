@@ -10,12 +10,13 @@ $bg_light: #FAFAFA
 
 body
   color: $main_color
-  +kerning(1)
 
 a
   color: $color
 
-p
+p,
+body .main_footer,
+.s_about li
   color: $text_color
 
 .color_element
@@ -25,12 +26,15 @@ p
 .color_border
   border-color: $color
 
-svg
-  path
-    fill: $main_color
-
-.toggle_mnu
+.bg_light
+  background-color: $bg_light
+.bg_dark
   background-color: $main_color
+  color: #fff
+  .s_descr::after
+    background-color: #fff
+  a
+    color: #fff
 
 .top_mnu
   a:hover
@@ -38,3 +42,8 @@ svg
 
   a
     +kerning(4)
+
+.top_text
+  p
+    color: $bg_light
+    +kerning(5)

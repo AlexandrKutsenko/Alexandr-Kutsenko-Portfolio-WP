@@ -4,7 +4,7 @@ body {
   font-size: 14px;
   min-width: 320px;
   position: relative;
-  line-height: 1.42857;
+  line-height: 1.6;
   -webkit-font-smoothing: antialiased; }
 
 body input:focus:required:invalid,
@@ -21,9 +21,49 @@ body textarea:required:valid {
 section,
 .main_head {
   position: relative; }
+  section h3,
+  .main_head h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 35px; }
+
+section {
+  padding: 70px 0 90px; }
+  section h2 {
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0 0 15px;
+    letter-spacing: 1px; }
+  section .personal_header {
+    font-size: 13px;
+    text-align: left;
+    margin-bottom: 30px;
+    color: #555; }
+
+.s_descr_wrap {
+  text-align: center; }
+  .s_descr_wrap .s_descr {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 12px;
+    position: relative;
+    margin-bottom: 130px;
+    font-weight: 600; }
+    .s_descr_wrap .s_descr::after {
+      content: "";
+      height: 1px;
+      left: 50%;
+      margin-left: -75px;
+      margin-top: 60px;
+      position: absolute;
+      width: 150px; }
 
 .main_head {
-  min-height: 620px;
+  min-height: 480px;
   padding-top: 20px; }
 
 .loader {
@@ -64,14 +104,17 @@ svg {
 .toggle_mnu {
   width: 60px;
   height: 60px;
-  float: right;
-  position: relative;
+  position: fixed;
   z-index: 100;
-  border: none; }
+  border: none;
+  right: 20px;
+  top: 20px; }
+  .toggle_mnu span {
+    display: block; }
 
 .sandwich {
-  width: 40px;
-  height: 40px;
+  width: 28px;
+  height: 28px;
   position: absolute;
   top: 8px;
   bottom: 0;
@@ -83,8 +126,8 @@ svg {
 .sw-topper {
   position: relative;
   top: 0;
-  width: 40px;
-  height: 4px;
+  width: 28px;
+  height: 3px;
   background: white;
   border: none;
   border-radius: 4px 4px 4px 4px;
@@ -99,9 +142,9 @@ svg path {
 
 .sw-bottom {
   position: relative;
-  width: 40px;
-  height: 4px;
-  top: 8.8px;
+  width: 28px;
+  height: 3px;
+  top: 6.6px;
   background: white;
   border: none;
   border-radius: 4px 4px 4px 4px;
@@ -114,9 +157,9 @@ svg path {
 
 .sw-footer {
   position: relative;
-  width: 40px;
-  height: 4px;
-  top: 18px;
+  width: 28px;
+  height: 3px;
+  top: 13.5px;
   background: white;
   border: none;
   border-radius: 4px 4px 4px 4px;
@@ -189,3 +232,46 @@ svg path {
         transition: all 0.5s ease; }
         .top_mnu ul a span:hover {
           background-color: rgba(255, 255, 255, 0.08); }
+
+.top_wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10; }
+  .top_wrapper .top_descr {
+    display: table-row; }
+    .top_wrapper .top_descr .top_centered {
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle; }
+  .top_wrapper .top_text {
+    display: inline-block;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease; }
+    .top_wrapper .top_text p {
+      margin: 0;
+      font-size: 1em;
+      text-transform: uppercase;
+      -webkit-animation-delay: 1s;
+      animation-delay: 1s; }
+    .top_wrapper .top_text h1 {
+      display: inline-block;
+      padding: 10px 35px;
+      color: #fff;
+      border: 8px solid #fff;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 2.8em;
+      background-color: rgba(0, 0, 0, 0.1);
+      -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1000px;
+              box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1000px;
+      margin-left: 20px;
+      margin-right: 20px;
+      -webkit-animation-delay: 0.5s;
+      animation-delay: 0.5s; }
+
+.toggle_mnu {
+  background-color: #000; }

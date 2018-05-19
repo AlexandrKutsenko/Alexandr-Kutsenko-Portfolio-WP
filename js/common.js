@@ -38,4 +38,7 @@ $(window).load(function() {
     $(".loader_inner").delay(600).fadeOut();
     $(".loader").delay(600).fadeOut("slow");
 
+    $(".top_text h1").animated("fadeInDown", "fadeOutUp");
+    $(".top_text p").animated("fadeInUp", "fadeOutDown");
+
 });
