@@ -11,7 +11,6 @@
 	<li><a href="http://jquery.com" target="_blank">jquery.com</a> - Популярнейший javaScript Framework</li>
 	<li><a href="http://stocksnap.io" target="_blank">stocksnap.io</a> - Сервис качественных бесплатных фотографий для веб-дизайна</li>
 	<li><a href="http://wireframe.cc/fEKu0b" target="_blank">wireframe.cc</a> - Отличный сервис для скетчинга</li>
-	<li><a href="http://gist.github.com/agragregra" target="_blank">gist.github.com</a> - Сервис для хранения полезного кода</li>
 	<li><a href="http://inkscape.org" target="_blank">inkscape.org</a> - Векторный редактор SVG</li>
 	<li><a href="http://linea.io" target="_blank">linea.io</a> - Тонкие векторные иконки</li>
 	<li><a href="http://fortawesome.github.io/Font-Awesome" target="_blank">fortawesome.github.io</a> - Векторные иконки. Использовали для соц. сетей</li>
